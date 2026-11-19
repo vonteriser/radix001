@@ -10,6 +10,8 @@ const __dirname = path.dirname(__filename);
 
 // https://vite.dev/config/
 export default defineConfig({
+  // GitHub Pages project-site URL: https://vonteriser.github.io/radix001/
+  base: "/radix001/",
   plugins: [react(), tailwindcss(), viteSingleFile()],
   resolve: {
     alias: {
